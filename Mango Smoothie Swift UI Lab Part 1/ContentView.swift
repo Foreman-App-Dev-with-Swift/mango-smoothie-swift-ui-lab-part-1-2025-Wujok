@@ -94,8 +94,26 @@ struct ContentView: View {
         
         VStack {
 //Work below in this VStack! ************
+                Text("Hello World")
+            Text("Mango Smoothie")
+            VStack {
                 Text("Hello")
-                   
+                Text("World")
+            }
+            
+            HStack {
+                Text("Hello")
+                Text("World")
+            }
+            
+            HStack {
+                Text("Hello")
+                    .foregroundColor(.blue)
+                    .font(.title)
+                Text("World")
+                    .foregroundColor(.red)
+                    .font(.body)
+            }
             
             
         
