@@ -95,10 +95,14 @@ struct ContentView: View {
         VStack(alignment: .leading) {
 //Work below in this VStack! ************
             Text("Mango Smoothie!")
+                .font(.headline)
                 .fontWeight(.bold)
             Text("Mango, Banana, Water")
                 .multilineTextAlignment(.trailing)
             Text("320 calories")
+                .font(.footnote)
+                .multilineTextAlignment(.center)
+                .lineLimit(nil)
         
 //Work above in this VStack! ************
         }
